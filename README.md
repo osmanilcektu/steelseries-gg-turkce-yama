@@ -1,8 +1,25 @@
-# SteelSeries GG Türkçe Yama v1.0.0 🇹🇷
+# 🇹🇷 SteelSeries GG Türkçe Yama
 
-SteelSeries GG için hazırlanmış kapsamlı Türkçe dil yamasının ilk kararlı sürümüdür.
+SteelSeries GG için hazırlanmış kapsamlı Türkçe dil yaması.
 
-## Kapsam
+**Güncel sürüm:** `v1.0.0`  
+**Hazırlayan:** Osman İlçektuğ
+
+[⬇️ Son Sürümü İndir](https://github.com/osmanilcektu/steelseries-gg-turkce-yama/releases/latest)
+
+---
+
+## 📌 Hakkında
+
+SteelSeries GG içerisinde resmi Türkçe dil desteği bulunmadığı için bu proje, uygulamanın Türkçe kullanılabilmesini sağlayan bağımsız bir topluluk çalışmasıdır.
+
+Çeviri yalnızca birkaç menüyle sınırlı değildir. SteelSeries GG içerisindeki ana modüller, cihaz ayarları, bildirimler, hata mesajları ve diğer kullanıcı arayüzü metinleri Türkçeleştirilmiştir.
+
+Yama, SteelSeries GG'nin mevcut **Almanca (`de`) locale** sistemi üzerinden çalışmaktadır.
+
+---
+
+## ✅ Türkçeleştirilen Bölümler
 
 - Engine
 - Sonar
@@ -11,32 +28,30 @@ SteelSeries GG için hazırlanmış kapsamlı Türkçe dil yamasının ilk karar
 - Aim Tools
 - Cihaz ayarları
 - Firmware ekranları
-- Bildirim ve hata mesajları
+- Bildirimler
+- Hata mesajları
 - Genel SteelSeries GG arayüzü
+- Çeşitli cihaz ve yapılandırma ekranları
 
-## Kurulum
+---
+
+## 📥 İndirme
+
+En güncel sürümü her zaman GitHub Releases sayfasından indirebilirsiniz:
+
+### [⬇️ SteelSeries GG Türkçe Yama — Son Sürüm](https://github.com/osmanilcektu/steelseries-gg-turkce-yama/releases/latest)
+
+Eski veya farklı sitelere yeniden yüklenmiş dosyalar yerine güncel sürümü buradan indirmeniz önerilir.
+
+---
+
+## 🛠️ Kurulum
 
 1. SteelSeries GG'yi tamamen kapatın.
-2. `localization` klasöründeki mevcut `de.json` dosyasını yedekleyin.
-3. Paketteki `de.json` dosyasını mevcut dosyanın üzerine kopyalayın.
-4. SteelSeries GG'yi yeniden açın.
-5. `Settings > General > Language` bölümünden **Deutsch** seçin.
+2. Sistem tepsisinde SteelSeries GG çalışıyorsa oradan da çıkış yapın.
+3. SteelSeries GG'nin `localization` klasörünü açın.
 
-SteelSeries GG'de resmi Türkçe locale bulunmadığı için yama Almanca dil paketi üzerinden çalışmaktadır.
+Genellikle:
 
-## Güncellemeler
-
-SteelSeries GG güncelleme aldığında uyumluluk kontrol edilip gerekli durumlarda yeni sürüm yayınlanacaktır.
-
-İstek, öneri ve hata bildirimleri için:
-
-**Osman İlçektuğ**  
-Instagram: https://www.instagram.com/osmancxl_
-
-Projeye destek olmak için GitHub reposuna ⭐ Star verebilir, projeyi paylaşabilir ve geri bildirim gönderebilirsiniz.
-
-İlgi olması durumunda farklı uygulamalar için de Türkçe dil yamaları hazırlanacaktır.
-
-## Uyarı
-
-Bu proje SteelSeries tarafından hazırlanmış veya onaylanmış resmi bir dil paketi değildir. Bağımsız topluluk çalışmasıdır.
+```text
+C:\Program Files\SteelSeries\GG\localization
